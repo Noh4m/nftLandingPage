@@ -16,7 +16,7 @@ export default function Stats() {
     },
   ]
   return (
-    <div className=' flex flex-wrap mt-4 mr-6 justify-between font-Poppins sm:w-[16rem] lg:w-[27rem]'>
+    <div className=' flex flex-wrap mt-4 mr-6 justify-between font-Poppins lg:w-[27rem]'>
       {stats.map((stat) => (
         <div className=' text-center text-bold '>
           <h3 className='text-3xl'> {stat.numbers} </h3>

@@ -5,7 +5,7 @@ import ButtonRegularV2 from '../ButtonRegularV2/indx'
 import Stats from '../Stats'
 export default function index() {
 return (
-<div className=' text-white container mx-auto flex mt-24 '>
+<div className=' text-white container  mx-auto flex mt-24 md:mb-40'>
     <div className=' md:w-1/2 pl-6 z-10'>
         <h2 className='text-5xl font-Poppins font-semibold text-white lg:text-7xl md:text-5xl'>
             Discover collect, & sell
@@ -14,7 +14,7 @@ return (
                 Extraordinary</h2>
             NFTs
         </h2>
-        <p className='pr-6 mt-10 mb-5'>the leading NFT Marketplace on EthereumHome to the next generation of digital
+        <p className='pr-6 mt-10 mb-5 md:text-lg md:max-w-[28rem]'>the leading NFT Marketplace on EthereumHome to the next generation of digital
             creators.Discover the best NFT collections.</p>
         <div className='flex flex-wrap  md:flex-row sm:w-[16rem] lg:w-[27rem] md:justify-between'>
             <ButtonRegular class=" w-52 mb-2">
@@ -29,8 +29,8 @@ return (
             <Stats /> 
         </div>
     </div>
-    <div className=' sm:w-1/2 md:flex justify-center hidden'>
-        <img src={imgNft} alt="dd" className=' w-[45.25rem]' />
+    <div className=' w-1/2 md:flex justify-center hidden'>
+        <img src={imgNft} alt="dd" className=' w-full object-contain' />
     </div>
 </div>
 )

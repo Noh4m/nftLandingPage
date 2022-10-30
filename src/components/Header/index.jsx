@@ -44,7 +44,7 @@ export default function Header() {
         
       </div>
       
-        <nav className={ ` z-30 bg-white flex flex-col absolute w-full h-full text-black pb-6 md:static md:w-auto md:flex md:flex-row md:pb-0 md:text-white  md:z-auto md:bg-transparent transition-all duration-500 ease-in ${open ? 'left-0 ':'left-[-1190px]'} ` }> 
+        <nav className={ ` z-30 bg-white flex flex-col absolute w-full h-full text-regal-blue hover:text-regal-blue-hover  pb-6 md:static md:w-auto md:flex md:flex-row md:pb-0 md:text-white  md:z-auto md:bg-transparent transition-all duration-500 ease-in ${open ? 'left-0 ':'left-[-1190px]'} ` }> 
           {links.map((link) => (
               <a 
               href={link.url} 
