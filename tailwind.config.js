@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'Poppins': ['Poppins', 'Open San', ]
+    },
+    extend: {
+      colors: {
+        'regal-blue': '#2F80ED',
+        'regal-blue-hover': '#235EAC',
+      },
+    },
   },
   plugins: [],
 }
